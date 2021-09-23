@@ -41,6 +41,10 @@ header {
 	height: 100px;
 	background: url('images/logo.gif') no-repeat 25px;
 }
+
+#solution {
+	height: 410px;
+}
 nav	{
 	width: 235px;
 	float: left;
