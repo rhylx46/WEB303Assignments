@@ -1,12 +1,12 @@
-// $(function(){
-//     $.getJSON("team.json").done(function(data){
-//         $.each(data.teammembers, function(index, value){
-//             $('#team').append(`<h3>${value.name}</h3>
-//                              <h4>${value.title}</h4>
-//                              <p>${value.bio}</p>`);
-//         });
-//     });
-// });
+$(function(){
+    $.getJSON("team.json").done(function(data){
+        $.each(data.teammembers, function(index, value){
+            $('#team').append(`<h3>${value.name}</h3>
+                             <h4>${value.title}</h4>
+                             <p>${value.bio}</p>`);
+        });
+    });
+});
 
 $(function(){
     $.ajax({
@@ -17,7 +17,7 @@ $(function(){
         
         beforeSend:function() {
             $('#team').append('<p class="load">Loading...</p>');
-            setTimeout(function(){$('.load').hide();},3000);
+//             setTimeout(function(){$('.load').hide();},3000);
         },
         timeout: 5000,
         error: function(jqXHR, exception){
@@ -31,6 +31,7 @@ $(function(){
                 $('#team').append(`<h3>${value.name}</h3>
                                   <h4>${value.title}</h4>
                                   <p>${value.bio}</p>`);
+                $('.load').hide();
             });
         })
     });
