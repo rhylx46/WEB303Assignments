@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #d99995;
+	font-family: Bahnschrift;
+}
+
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	height: 100%;
+}
+
+.accord {
+	list-style: none;
+	border: thin solid;
+	padding: 0px;
+	margin: 0 20px;
+}
+
+.accord-label {
+	text-decoration: none;
+	color: #2F2F2F;
+/*	display: block;*/
+	text-align: center;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.accord a {
+	background-color: orange;
+	border-bottom: thin solid;
+
+}
+
+.accord li:last-child a{
+	border-bottom: none;
+}
+
+.accord-content {
+	padding: 10px;
+	display: none;
+}
+
+.accord-content img {
+	display: block;
+	width: 300px;
+	position: relative;
+	left: 30%;
+}
+
+.tab-list{
+	margin-bottom: 0;
+	position: relative;
+    z-index: 10;
+}
+
+.tab-list li.active a{
+    color: #fff;
+   	border-bottom: thin solid orange;
+}
+
+.tab-list li {
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: 5px;
+	
+}
+
+.tab-list li a {
+	border: thin solid black;
+}
+
+.tab {
+	color: #363636;
+	text-decoration: none;
+	display: block;
+	background-color: orange;
+	padding: 4px 30px 0 30px;
+
+	
+}
+
+.tab-content {
+	display: none;
+	margin-top: -1px;
+    position: relative;
+    z-index: 1;
+	border: thin solid;
+	margin-right: 40px;
+	padding: 10px;
+	margin-bottom: 200px;
+}
+
+.tab-content.active {
+    display: block;
+	margin-left: 40px;
+
+
+
+}
+
+#tab1 img {
+	width: 750px;
+}
+
+#opp {
+	width: 600px;
+	position: relative;
+	left: 20%;
+}
+
+
+
+h3 {
+	margin-left: 50px;;
+}
+
+p {
+	margin-left: 50px;
+}
