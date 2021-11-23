@@ -1,0 +1,62 @@
+{"characters":[
+	{
+		"name":"Nadeshiko Kagamihara",
+		"gender":"Female",
+		"Birthday":"March 4th",
+        "HairColor":"Pink"
+	},
+	{
+		"name":"Rin Shima",
+		"gender":"Female",
+		"Birthday":"October 1st",
+        "HairColor":"Blue"
+	},
+	{
+		"name":"Chiaki Ogaki",
+		"gender":"Female",
+		"Birthday":"August 31st",
+        "HairColor":"Purple"
+	},
+	{
+		"name":"Aoi Inuyama",
+		"gender":"Female",
+		"Birthday":"March 4th",
+        "HairColor":"Yellow"
+	},
+	{
+		"name":"Ena Saito",
+		"gender":"Female",
+		"Birthday":"September 1st",
+        "HairColor":"Black"
+	},
+    {
+		"name":"Ayano Toki",
+		"gender":"Female",
+		"Birthday":"August 24th",
+        "HairColor":"Brown"
+	},
+    {
+		"name":"Sakura Kagamihara",
+		"gender":"Female",
+		"Birthday":"July 11th",
+        "HairColor":"Purple"
+	},
+    {
+		"name":"Minami Toba",
+		"gender":"Female",
+		"Birthday":"December 6th",
+        "HairColor":"Black"
+	},
+    {
+		"name":"Hajime Shinshiro",
+		"gender":"Male",
+		"Birthday":"January 31st",
+        "HairColor":"White"
+	},
+	{
+		"name":"Shizuka Kagamihara",
+		"gender":"Female",
+		"Birthday":"February 21st",
+        "HairColor":"Purple"
+	}
+]}
